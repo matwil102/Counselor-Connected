@@ -41,12 +41,12 @@
 	<h1>Counselor Connected</h1>
 
   <div id="proset">
-    <a href="profile.html"><button>Profile</button>
-    <a href="settings.html"><button>Settings</button>
+    <a href="profile.php"><button>Profile</button>
+    <a href="settings.php"><button>Settings</button>
   </div>
 
   <div id="emergency">
-       <a href="emergency.html"><button>Emergency Button</button></a>
+       <a href="emergency.php"><button>Emergency Button</button></a>
   </div>
 
 	<hr>
@@ -59,14 +59,14 @@
    <div class="leftcolumn">
      <a href="https://calendar.google.com/calendar/selfsched?sstoken=UUs2ME9xbE5WYkNnfGRlZmF1bHR8OTc4NzM0ZWMzMzJhZWZlN2JmMGI4NTlhOTU2NTExOTk"><button>Schedule Appointment<br><img src="calendar.jpg"></button></a>
      <br>
-     <a href="policies.html"><button>Policies<br><img src="policies.jpg"></button></a>
+     <a href="policies.php"><button>Policies<br><img src="policies.jpg"></button></a>
 	   </div>
 	   </div>
    <div id="buttons">
    <div class="rightcolumn">
-     <a href="notifications.html"><button>Notifications<br><img src="notification-bell.jpg"></button></a>
+     <a href="notifications.php"><button>Notifications<br><img src="notification-bell.jpg"></button></a>
      <br>
-     <a href="contact-info.html"><button>Contact Info<br><img src="contacts.jpg"></button></a>
+     <a href="contact-info.php"><button>Contact Info<br><img src="contacts.jpg"></button></a>
 	   </div>
 	   </div>
 
