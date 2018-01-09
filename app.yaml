@@ -5,5 +5,9 @@ handlers:
 - url: /(.*\.(gif|png|jpg|html))$
   static_files: \1
   upload: .*\.(gif|png|jpg|html)
+- url: /main-page.php
+  script: main-page.php
+- url: /counselor-main.php
+  script: counselor-main.php
 - url: /.*
   script: login.php
