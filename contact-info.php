@@ -22,7 +22,7 @@ background-color:#add8e6;
 <body>
 
   <h1>Counselor Connected</h1>
-  <a href="main-page.html"><button><--Back</button></a>
+  <a href="main-page.php"><button><--Back</button></a>
 
 <div id="table">
   <table>
