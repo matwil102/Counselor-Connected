@@ -29,14 +29,14 @@ background-color:#add8e6;
 
 <h1>Counselor Connected</h1>
 
-<a href="counselor_connected.html"><button><--Back</button></a>
+<a href="login.php"><button><--Back</button></a>
 <br>
 
 <div id="sign-in">
   <p style="text-align:center;"><strong>Counselor Log In</strong></p>
   <label>Username</label><textarea></textarea><br>
   <label>Password</label><textarea></textarea><br>
-  <a href="counselor-main.html"><button>Sign In</button></a>
+  <a href="counselor-main.php"><button>Sign In</button></a>
 </div>
 
 </body>
