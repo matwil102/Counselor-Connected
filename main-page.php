@@ -24,7 +24,7 @@
      }
 
 
-    #buttons.img {width:150px;
+    #buttons img {width:150px;
          height:150px;}
 
     #emergency {text-align:center;font-size:20px;}
@@ -44,15 +44,16 @@
   <div id="proset">
     <a href="profile.php"><button>Profile</button>
     <a href="settings.php"><button>Settings</button>
-	    	  <div id="google_translate_element"></div>
-	  <script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,es,tl,vi,zh-CN',
-					 layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 
-					'google_translate_element');
-}
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
+    <div id="google_translate_element"></div>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+  	new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,es,tl,vi,zh-CN',
+						layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 
+						'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
   </div>
 
   <div id="emergency">
