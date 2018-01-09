@@ -62,7 +62,7 @@
 		setcookie(Key_your_site, $_POST['pass'], $hour);	 
  
 		//then redirect them to the members area 
-		header("Location: main-page.html"); 
+		header("Location: main-page.php"); 
 	}
 }
 //}
