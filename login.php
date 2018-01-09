@@ -29,6 +29,7 @@ background-color:#add8e6;
 	      <h1>Counselor Connected</h1>
 	      <hr>
      </div>
+     <div id="sign-in">
 <?php 
 
 //Connects to your Database 
@@ -105,7 +106,6 @@ else{
 
  <table border="0"> 
 
- <tr><td colspan=2><h1>Login</h1></td></tr> 
 
  <tr><td>Username:</td><td> 
 
@@ -132,4 +132,5 @@ else{
  <?php 
  }
  ?> 
+	</div>	     
 </body>
