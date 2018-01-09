@@ -1,3 +1,34 @@
+<head>
+     <style>
+	 h1 {color: white;
+      font: 400 100px/1.3 'Oleo Script', Helvetica, sans-serif;
+      text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+      text-align:center;} 
+    
+body {
+background-image: url("Background.jpg");
+background-repeat: no-repeat;
+background-color:#add8e6;
+}
+ 
+#sign-in {text-align: center;
+            display: inline-block;
+            border: 2px black solid;
+            padding: 10px;
+            background-color: white;
+            margin-left: 40%;
+            margin-top: 20px;}
+   
+     
+</style>
+</head>
+
+<body>
+
+     <div id="app-name">
+	      <h1>Counselor Connected</h1>
+	      <hr>
+     </div>
 <?php 
 
 //Connects to your Database 
@@ -101,3 +132,4 @@ else{
  <?php 
  }
  ?> 
+</body>
