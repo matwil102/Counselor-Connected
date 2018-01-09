@@ -53,12 +53,12 @@ body {font-family: "Lato", sans-serif;}
   <p></p> 
 </div>
 
-<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
-<button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
+<button class="tablink" onclick="openPage"('Policies', this, 'white')" id="defaultOpen">Policies</button>
+<button class="tablink" onclick="openPage"('FAQ', this, 'white')">FAQ</button>
 
 
 <script>
-function openCity(cityName,elmnt,color) {
+function openPage(cityName,elmnt,color) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
