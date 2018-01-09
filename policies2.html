@@ -2,12 +2,16 @@
 <html>
 <head>
 <style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
 body, html {
     height: 100%;
     margin: 0;
     font-family: Arial;
 }
 
+/* Style tab links */
 .tablink {
     background-color: #555;
     color: white;
@@ -17,27 +21,29 @@ body, html {
     cursor: pointer;
     padding: 14px 16px;
     font-size: 17px;
-    width: 50%;
+    width: 12.5%;
 }
 
 .tablink:hover {
     background-color: #777;
 }
 
-/* Style the tab content */
+/* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
     color: black;
     display: none;
-    padding: 50px;
-    text-align: left;
+    padding: 100px 20px;
     height: 100%;
 }
 
-#Policies {background-color:white;}
-#FAQ {background-color:white;}
+#policies {background-color: white;}
+#FAQ {background-color: white;}
 </style>
 </head>
 <body>
+
+<button class="tablink" onclick="openPage('Policies', this, 'black')" id="defaultOpen">Policies</button>
+<button class="tablink" onclick="openPage('FAQ', this, 'black')">FAQ</button>
 
 <div id="Policies" class="tabcontent">
   <h3>Policies</h3>
@@ -56,10 +62,6 @@ body, html {
   <h3>Frequently Asked Questions</h3>
   <p>TEST</p> 
 </div>
-
-<button class="tablink" onclick="openPage"('Policies', this, 'white')" id="defaultOpen">Policies</button>
-<button class="tablink" onclick="openPage"('FAQ', this, 'white')">FAQ</button>
-
 
 <script>
 function openPage(pageName,elmnt,color) {
