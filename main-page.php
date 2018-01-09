@@ -52,7 +52,7 @@
 	<hr>
 
      </div>
-     <a href="counselor_connected.html"><button><--Back</button></a>
+     <a href="login.php"><button><--Back</button></a>
 
 
    <div id="buttons">
