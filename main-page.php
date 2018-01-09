@@ -52,7 +52,6 @@ function googleTranslateElementInit() {
 					'google_translate_element');
 }
 </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-     <a href="login.php"><button><--Back</button></a>
 
   </div>
 
@@ -62,8 +61,9 @@ function googleTranslateElementInit() {
 
   <hr>
 
-     </div>
 
+     </div>
+     <a href="login.php"><button><--Back</button></a>
 
    <div id="buttons">
    <div class="leftcolumn">
