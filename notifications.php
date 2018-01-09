@@ -27,13 +27,13 @@ background-color:#add8e6;
 <body>
 
   <h1>Counselor Connected</h1>
-  <a href="main-page.html"><button><--Back</button></a>
+  <a href="main-page.php"><button><--Back</button></a>
 <hr>
 
 <div id="pass">
   <h2 style="text-align:center;">Student Pass</h2>
   <hr>
-  <p><strong>Student Name: </strong>BeanGerman DeerRing</p>
+  <p><strong>Student Name: </strong>Ben Dearing</p>
   <p><strong>Appointment Date: </strong>14 December, 2017</p>
   <p><strong>Appointment Time: </strong>7:30 a.m.</p>
   <p><strong>Counselor: </strong>Christine Shaughnessy</p>
