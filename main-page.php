@@ -24,7 +24,7 @@
      }
 
 
-    img {width:150px;
+    #buttons.img {width:150px;
          height:150px;}
 
     #emergency {text-align:center;font-size:20px;}
@@ -36,9 +36,8 @@
 
 <body>
 
-     <div id="app-name">
-
-	<h1>Counselor Connected</h1>
+   <div id="app-name">
+   <h1>Counselor Connected</h1>
 
 	   
 	     
@@ -51,10 +50,11 @@
        <a href="emergency.php"><button>Emergency Button</button></a>
   </div>
 
-	<hr>
+  <hr>
 
      </div>
-	    <div id="google_translate_element"></div><script type="text/javascript">
+	  <div id="google_translate_element"></div>
+	  <script type="text/javascript">
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,es,tl,vi,zh-CN',
 					 layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 
