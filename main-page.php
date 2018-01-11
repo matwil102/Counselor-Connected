@@ -42,7 +42,7 @@
 	   
 	     
   <div id="proset">
-    <a href="profile.php"><button>Profile</button>
+    
     <a href="settings.php"><button>Settings</button>
     <div id="google_translate_element"></div>
     <script type="text/javascript">
