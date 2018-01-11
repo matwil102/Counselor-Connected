@@ -60,13 +60,13 @@
   <div id="emergency">
        <a href="emergency.php"><button>Emergency Button</button></a>
   </div>
- 
-  <hr>
+	    
   
 
       
      </div>
      <a href="login.php"><button><--Back</button></a>
+     <!--currently not at right location on page-->
     
 
    <div id="buttons">
