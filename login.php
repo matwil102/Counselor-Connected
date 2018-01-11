@@ -90,6 +90,9 @@ background-color:#add8e6;
             background-color: white;
             margin-left: 40%;
             margin-top: 20px;}
+	     
+#google_translate_element {text-align: left;
+	     }
    
      
 </style>
