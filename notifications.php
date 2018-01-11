@@ -42,7 +42,7 @@ background-color:#add8e6;
     </script> 
 </div>   
     
-<hr>
+
 
 <div id="pass">
   <h2 style="text-align:center;">Student Pass</h2>
