@@ -60,7 +60,7 @@
        <a href="emergency.php"><button>Emergency Button</button></a>
   </div>
 
-  <hr>
+  
 
 
      </div>
