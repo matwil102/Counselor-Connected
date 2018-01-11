@@ -64,7 +64,7 @@ background-color:#add8e6;
 
 <a href="login.php"><button><--Back</button></a>
 
-<hr>
+
 
 <div id="buttons">
 <div class="leftcolumn">
