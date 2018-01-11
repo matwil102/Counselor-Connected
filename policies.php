@@ -13,6 +13,8 @@ background-color:#add8e6;
 }
 
 #policy {text-align: center;}
+     
+#google_translate_element {text-align: right;}
 
 #rules {display: inline-block;
         border: 2px black solid;
@@ -30,6 +32,18 @@ background-color:#add8e6;
 <h1>Counselor Connected</h1>
 <a href="main-page.php"><button><--Back</button></a>
 
+<div id="google_translate_element">
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+  	new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,es,tl,vi,zh-CN',
+						layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 
+						'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script> 
+</div>        
+     
 <div id="policy">
 <a href="https://www.schoolcounselor.org/asca/media/asca/Ethics/EthicalStandards2016.pdf"><button>ASCA Guidelines<br><img src="ASCA.png"></button></a>
 </div>
