@@ -101,6 +101,18 @@ background-color:#add8e6;
 	      <h1>Counselor Connected</h1>
 	      <hr>
      </div>
+	
+     <div id="google_translate_element"></div>
+     <script type="text/javascript">
+      function googleTranslateElementInit() {
+  	new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,es,tl,vi,zh-CN',
+						layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 
+						'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+	
      <div id="sign-in">
 
  <form action="<?php echo $_SERVER['PHP_SELF']?>" method="post"> 
