@@ -54,7 +54,7 @@ background-color:#add8e6;
 
 <div id="proset">
 
-<a href="profile.html"><button>Profile</button>
+
 
  <a href="settings.html"><button>Settings</button>
 
