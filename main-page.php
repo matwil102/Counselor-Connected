@@ -26,8 +26,6 @@
 
     #buttons img {width:150px;
          height:150px;}
-
-    #logout {text-align: left;}	
 	   
     #emergency {text-align:center;font-size:20px;}
 
@@ -58,18 +56,17 @@
     </script>
   </div>
 
-  <div id="logout">	    
-       <a href="login.php"><button>Logout</button></a>
-  </div>
 	    
   <div id="emergency">
        <a href="emergency.php"><button>Emergency Button</button></a>
   </div>
-
+ 
+  <hr>
   
 
       
      </div>
+     <a href="login.php"><button><--Back</button></a>
     
 
    <div id="buttons">
