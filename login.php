@@ -91,7 +91,7 @@ background-color:#add8e6;
             margin-left: 40%;
             margin-top: 20px;}
 	     
-#google_translate_element {text-align: left;
+#google_translate_element {text-align: right;
 	     }
    
      
