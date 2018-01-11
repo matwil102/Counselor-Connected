@@ -65,7 +65,7 @@
 
       
      </div>
-     <a href="login.php"><button><--Back</button></a>
+     <a href="login.php"><button>Logout</button></a>
      <!--currently not at right location on page-->
     
 
