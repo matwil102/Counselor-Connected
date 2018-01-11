@@ -18,7 +18,7 @@ background-color:#add8e6;
 
    #language {text-align: center;}
    #color {text-align: center;}
-
+   #google_translate_element {text-align: right;}
 
 </style>
 </head>
@@ -31,6 +31,18 @@ background-color:#add8e6;
 
 <h2>Settings</h2>
 
+<div id="google_translate_element">
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+  	new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,es,tl,vi,zh-CN',
+						layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 
+						'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script> 
+</div>   
+   
 <div id="language">
   <p style="font-weight: bold;">Language:
 <select>
