@@ -6,6 +6,8 @@
      text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
      text-align:center;}
 
+  #google_translate_element {text-align: right;}  
+    
   #warning {
           display: inline-block;
           border: 2px black solid;
@@ -31,6 +33,18 @@ background-color:#add8e6;
   <h1> Counselor Connected </h1>
   <a href="main-page.php"><button><--Back</button></a>
 
+ <div id="google_translate_element">
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+  	new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,es,tl,vi,zh-CN',
+						layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 
+						'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script> 
+</div>     
+    
 <div id="warning">
   <h2 style="text-align: center; text-decoration: underline;">Warning:</h2>
 
