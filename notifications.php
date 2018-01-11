@@ -29,7 +29,6 @@ background-color:#add8e6;
 <body>
 
   <h1>Counselor Connected</h1>
-  <a href="main-page.php"><button><--Back</button></a>
   <div id="google_translate_element">
     <script type="text/javascript">
       function googleTranslateElementInit() {
@@ -40,7 +39,9 @@ background-color:#add8e6;
     </script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
     </script> 
-</div>   
+  </div>   
+  <a href="main-page.php"><button><--Back</button></a>
+  
     
 
 
