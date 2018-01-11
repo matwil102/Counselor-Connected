@@ -62,9 +62,9 @@
 
   
 
-
+      <a href="login.php"><button>Logout</button></a>
      </div>
-   <a href="login.php"><button>Logout</button></a> 
+    
 
    <div id="buttons">
    <div class="leftcolumn">
